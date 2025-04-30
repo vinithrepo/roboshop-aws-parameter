@@ -1,4 +1,4 @@
-terraform {
+terraform  {
   backend "s3"{
     bucket         = "sbucket83"
     key            = "parameters/state.tfstate"
